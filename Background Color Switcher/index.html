@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Background Color Switcher</title>
+    <style>
+      body {
+        padding: 20px 100px;
+        margin: 0px;
+      }
+      h1 {
+        text-align: center;
+        text-decoration: underline;
+      }
+      img {
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+      }
+      p {
+        font-size: 18px;
+        text-align: justify;
+      }
+      .btn {
+        width: 20px;
+        height: 20px;
+        display: inline-block;
+        border-radius: 50px;
+        border: 2px solid gray;
+        cursor: pointer;
+      }
+      #white {
+        background-color: white;
+      }
+      #aqua {
+        background-color: #00ffff;
+      }
+      #violet {
+        background: #ee82ee;
+      }
+      #black {
+        background-color: #000000;
+      }
+      #color-switcher {
+        text-align: right;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="color-switcher">
+      <span class="btn" id="white" onclick="changeBG('#ffff')"></span>
+      <span class="btn" id="aqua" onclick="changeBG('#00ffff')"></span>
+      <span class="btn" id="violet" onclick="changeBG('#ee82ee')"></span>
+      <span class="btn" id="black" onclick="changeBG('#000')"></span>
+    </div>
+
+    <h1>About US</h1>
+    <img src="./download.jfif" alt="" />
+    <p>
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem
+      voluptatem illo iure laborum accusantium, quidem excepturi voluptate
+      accusamus dolor id quisquam impedit maiores nesciunt neque est sint
+      perferendis quis cumque tenetur sit qui! Omnis adipisci inventore illum
+      vel, modi magni nobis necessitatibus quis itaque voluptatibus deleniti
+      distinctio harum, nemo perferendis corporis quam numquam eligendi sequi
+      laudantium hic dolorum, iure maxime doloribus! Vitae tempora ipsam itaque
+      vel, magni quibusdam sunt porro corporis at et? Quaerat, recusandae.
+      Delectus unde esse vero dolorum quidem quo, iure culpa totam nemo, ad,
+      commodi pariatur ex! Sed atque harum sit deleniti repudiandae eaque rerum
+      soluta libero neque, quae hic et dolorum, repellat dolor eius voluptatem
+      distinctio recusandae accusamus, debitis tempore animi beatae assumenda!
+      Excepturi esse iste optio deleniti eos quos facere, ipsa libero vero,
+      dignissimos provident numquam eveniet illum sapiente culpa! Quo ut illo
+      quam consequuntur atque eveniet reiciendis possimus corporis dolores eius
+      tenetur minima facere, quisquam eaque, expedita, maiores rem? Fugit
+      accusantium at ut ratione quisquam fugiat, facere provident similique
+      nobis aspernatur magnam, optio unde maxime voluptatibus accusamus
+      voluptatem minus dolores alias explicabo quibusdam architecto! Ut non
+      perferendis perspiciatis. Quam, tempora qui adipisci perspiciatis natus
+      veritatis quidem reprehenderit velit sint? Excepturi unde cum autem
+      facilis saepe laudantium quasi consectetur? Unde possimus incidunt
+      delectus suscipit voluptate nisi consectetur libero, consequatur, corrupti
+      perferendis officia quidem. Porro, pariatur, molestias inventore delectus
+      minus, iste nemo odio quae cupiditate non dolores recusandae alias magnam
+      cum! Quisquam unde quaerat molestias accusamus nulla quo dolorem
+      repudiandae est. Magni adipisci non optio, veritatis impedit quisquam
+      perspiciatis iusto quo! Debitis, est sequi! Eum illum reiciendis tempore
+      laboriosam minus architecto aliquam, atque ea placeat! Aliquid, totam
+      alias molestias enim veritatis non assumenda velit perspiciatis nobis
+      dolores temporibus iste expedita, animi libero facere consectetur
+      inventore corrupti! Error, architecto reiciendis dignissimos quasi ad
+      facere in laboriosam magnam sint voluptas nemo dicta beatae enim minima
+      nisi delectus non sapiente maiores assumenda iure? Rerum quibusdam maxime
+      odit fugit est. Esse quod aliquid nisi exercitationem nostrum recusandae
+      error id quia eaque velit ea quis, cum sapiente eum. Iure laudantium
+      voluptatum eum at quasi atque nesciunt cupiditate, magni corporis
+      perferendis id doloremque, ex inventore, architecto illum ipsum harum
+      quidem vero esse. Eligendi facere repellat minus sapiente id! Eveniet
+      voluptas provident placeat. Corrupti adipisci, repellendus quia ut dicta
+      architecto ullam a cum veniam sint fugiat maxime distinctio odit numquam
+      delectus laborum praesentium itaque, fuga eaque vitae. Autem fugiat
+      voluptatibus nisi voluptatem voluptates quis culpa eaque sunt quos. Odio
+      velit a dolorum repellendus earum. Nemo, officiis laudantium. Fugiat velit
+      adipisci dolorum provident ad maxime beatae recusandae soluta, deleniti
+      nemo reiciendis sit reprehenderit dicta perferendis modi odit aliquam
+      facilis omnis possimus, quos voluptas voluptate delectus. Aliquam
+      veritatis fugit omnis eligendi, veniam modi ipsum nobis? Velit, fuga
+      possimus quo aliquid fugiat ea ipsam suscipit at porro numquam, nihil ut
+      explicabo quae eius molestias maiores aliquam nisi aperiam dolor.
+      Laboriosam inventore sequi possimus reprehenderit ut tempora iusto
+      sapiente quam animi recusandae quisquam asperiores corporis, dolorum optio
+      nemo iure nesciunt laudantium maxime consectetur! Dolores molestias aut
+      obcaecati!
+    </p>
+
+    <script>
+      function changeBG(color) {
+        document.body.style.backgroundColor = color;
+        if (color == "#000") {
+          document.body.style.color = "white";
+        } else {
+          document.body.style.color = "black";
+        }
+      }
+    </script>
+  </body>
+</html>
